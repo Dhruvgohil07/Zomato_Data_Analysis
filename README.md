@@ -1,6 +1,6 @@
 # Zomato Data Analysis
 
-End-to-end analysis of a global Zomato restaurant dataset: data cleaning, exploratory data analysis (EDA), feature engineering, and deep EDA — with statistical validation and predictive modeling ahead.
+End-to-end analysis of a global Zomato restaurant dataset: data cleaning, exploratory data analysis (EDA), feature engineering, deep EDA and statistical validation — with derived metrics and predictive modeling ahead.
 
 **Current scope (decision 2026-08-16, still valid): India-only analysis.** The full dataset mixes 12 currencies without conversion, so cross-country cost comparisons are invalid. See `../plan.md` for the full roadmap.
 
@@ -15,8 +15,8 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 | Outlier handling (India) | ✅ Done — **outliers kept** (premium segment, 813 rows) | `Data_cleaning.ipynb` |
 | Feature engineering | ✅ Complete | `Feature_Engineering.ipynb` (21 cells) |
 | Deep EDA (univariate/bivariate/multivariate) | ✅ Complete | `Deep_EDA.ipynb` (45 cells) |
+| Statistical validation (Phase 4) | ✅ Complete | `Statistical_Validation.ipynb` (42 cells) |
 | Derived metrics (Phase 3.5) | ⬜ Planned | — |
-| Statistical validation | ⬜ Planned | — |
 | Predictive modeling | ⬜ Planned | — |
 | Reporting & final dataset | ⬜ Planned | — |
 
@@ -26,9 +26,10 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 - **`Country-Code.xlsx`** — maps country codes to names (15 countries: India, US, UK, UAE, Indonesia, Brazil, and more)
 - **`file1–5.json`** — optional: ~2,358 Delhi restaurants (photos/URLs) for a separate city-focused analysis
 - **`Output/df_india_cleaned`** — the cleaned, India-only, feature-flagged base (8,643 rows) produced by `Data_cleaning.ipynb`
-- **`Output/df_featured.csv`** — `df_india_cleaned` plus cuisine/vote features, produced by `Feature_Engineering.ipynb` and consumed by `Deep_EDA.ipynb`
+- **`Output/df_featured.csv`** — `df_india_cleaned` plus cuisine/vote features, produced by `Feature_Engineering.ipynb` and consumed by `Deep_EDA.ipynb` and `Statistical_Validation.ipynb`
+- **`Output/phase4_test_results.csv`** — one row per Phase 4 test: statistic, raw and Holm-corrected p-values, effect size with 95% CI, verdict and caveat
 
-> ⚠️ The raw CSV is **latin-1 encoded**, not UTF-8 — always read it with `encoding="latin-1"`.
+> ⚠️ The raw CSV is **latin-1 encoded**, not UTF-8 — always read it with `encoding="latin-1"`. The `Output/` CSVs are written by pandas and are **UTF-8**, so read those with the default encoding. Some accented names are already corrupted in the raw file (e.g. "Cafí©" for "Café"); this only affects how about 70 names display.
 
 ## What has been done
 
@@ -69,6 +70,15 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 - Every code cell is paired with a markdown `### Observation:` cell describing what the actual output showed
 - Executed end-to-end via `jupyter nbconvert --execute`, 0 errors
 
+### Statistical validation (`Statistical_Validation.ipynb` — 42 cells)
+
+- **Assumption checks:** QQ plots and a D'Agostino-Pearson test (rating is mildly non-normal and discrete, but every group has n ≥ 377, so tests on means are safe); Levene's test (variances differ slightly in 4 of 5 groupings, so Welch versions are used throughout)
+- **6 tests on `df_rated`:** Welch's t-tests (table booking, chain, NCR vs rest), Welch's ANOVA + Tukey HSD (price range), Mann-Whitney U (online delivery), chi-square (delivery × price range)
+- Every test reports a p-value, an effect size (Cohen's d, η², rank-biserial r or Cramér's V) and a 95% bootstrap CI, with Holm correction across the family; a significant but negligible effect counts as a null result
+- **Confound checks** after the booking and NCR tests: within each price range, within NCR only, and within vote bands
+- Output: `Output/phase4_test_results.csv` (verdict + caveat per test) and an effect-size chart
+- Executed end-to-end via `jupyter nbconvert --execute`, 0 errors
+
 ## Key findings so far
 
 1. **The data mixes 12 currencies without conversion** (INR, USD, IDR, GBP, …). Apparent cross-country "outliers" were a currency artifact — e.g. every cost above 10,000 is Indonesian Rupiah (800,000 IDR ≈ $50 USD). This drove the India-only decision.
@@ -77,12 +87,15 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 4. **Cost is plain, rounded INR** — there is no conversion factor to apply when reporting prices.
 5. **The 813 India outliers (9.41%) are the premium segment, not errors** — genuine Delhi-NCR fine dining. Removing them would bias the analysis toward lower-end restaurants, so they are kept. For future modeling, use robust methods (median/MAD, Huber, tree-based models).
 6. **100% of unrated restaurants are located in NCR** — every restaurant outside NCR in this dataset has been rated. Unrated restaurants are also cheaper, less often chains, and rarely offer delivery/booking — a clear cold-start profile.
-7. **The "online delivery → higher rating" signal collapses on rated-only data** (mean rating 3.37 vs 3.34, essentially flat) — the larger effect seen on unfiltered data was mostly an artifact of unrated restaurants also lacking delivery.
-8. **Chain status is not a rating advantage** — chains rate slightly lower than independents (3.30 vs 3.38).
-9. **NCR vs rest of India is counter-intuitive**: non-NCR restaurants rate higher (3.94 vs 3.28) *and* cost more (₹895 vs ₹696) than NCR ones — but on a much smaller sample (696 vs 5,808 rated rows), flagged for a formal significance test rather than treated as concluded.
-10. **`Average Cost for two` and `Price range` are redundant** (Pearson 0.83 / Spearman 0.91 on rated data) — only one should enter a linear model at a time.
-11. **Rating tiers:** 4.5–4.9 Excellent, 4.0–4.4 Very Good, 3.5–3.9 Good, 2.5–3.4 Average, 1.8–2.4 Poor.
-12. **Online delivery** is only available in India and UAE (in the full, multi-country dataset).
+7. **Online delivery doesn't affect rating.** On rated restaurants the effect is negligible (3.37 vs 3.34; rank-biserial r = 0.076). The delivery–rating correlation falls from 0.296 to 0.031 once unrated rows are removed — 89% of the apparent link was an artifact of counting "not rated" as 0.
+8. **Chain status doesn't matter for rating** — chains rate 0.07 lower than independents (3.30 vs 3.38), a negligible effect (Cohen's d = -0.14).
+9. **Table booking is not a rating lever.** Overall, booking restaurants rate higher (d = 0.48), but booking is concentrated in the expensive tiers; within price ranges 3–4 booking restaurants rate *lower*, and with region also held fixed the gap is small and changes sign. A Simpson's paradox: booking is a proxy for price tier and region.
+10. **Price range is the strongest clean driver tested** — it explains about 14% of rating variance (η² = 0.144). Ratings split into a budget tier (ranges 1–2, ~3.2–3.3) and a premium tier (ranges 3–4, ~3.7); ranges 3 and 4 don't differ.
+11. **Restaurants outside NCR rate much higher (3.94 vs 3.28, d = 1.44), but the samples differ.** The gap holds in every price range, and about 42% of it is explained by vote mix (outside-NCR restaurants have a median of 192 votes vs 40, and none are unrated). The outside-NCR rows look like a curated, popular slice, so this can't be read as "restaurants outside Delhi NCR are better".
+12. **Online delivery depends on price range as an inverted U** — 25% → 50% → 37% → 11% of restaurants deliver across price ranges 1–4 (Cramér's V = 0.27).
+13. **`Average Cost for two` and `Price range` are redundant** (Pearson 0.83 / Spearman 0.91 on rated data) — only one should enter a linear model at a time.
+14. **Rating tiers:** 4.5–4.9 Excellent, 4.0–4.4 Very Good, 3.5–3.9 Good, 2.5–3.4 Average, 1.8–2.4 Poor.
+15. **Online delivery** is only available in India and UAE (in the full, multi-country dataset).
 
 ## Repository structure
 
@@ -92,9 +105,11 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 ├── Data_cleaning.ipynb          # Cleaning, India filter, Phase 2 rebuild, outlier decision (37 cells)
 ├── Feature_Engineering.ipynb    # Cuisine/vote feature engineering (21 cells)
 ├── Deep_EDA.ipynb               # Univariate/bivariate/multivariate Deep EDA (45 cells)
+├── Statistical_Validation.ipynb # Phase 4: hypothesis tests, effect sizes, Holm correction (42 cells)
 ├── Output/
 │   ├── df_india_cleaned         # Phase 2 output: cleaned India base (8,643 rows)
-│   └── df_featured.csv          # Feature-engineered base used by Deep_EDA.ipynb
+│   ├── df_featured.csv          # Feature-engineered base used by Deep_EDA / Statistical_Validation
+│   └── phase4_test_results.csv  # Phase 4 test results: effect sizes, CIs, verdicts, caveats
 └── Zomatodataset/                # Raw data (CSV, XLSX, JSON)
     ├── zomato.csv                # Main dataset (9,551 rows × 21 cols)
     ├── Country-Code.xlsx         # Country code → name mapping
@@ -106,7 +121,7 @@ Tracking files live one level up (repo root): `plan.md` (roadmap), `progress.md`
 
 ## Important gotchas
 
-- **CSV encoding:** Always use `encoding="latin-1"` — not UTF-8
+- **CSV encoding:** the raw `zomato.csv` needs `encoding="latin-1"`; the `Output/` CSVs are UTF-8 (read with the default)
 - **Console unicode:** Windows cp1252 crashes on currency symbols (₹, etc.) — prefix with `PYTHONIOENCODING=utf-8`
 - **Notebook dependency:** `Data_cleaning.ipynb` imports `eda.final_df` via `importnb` — **EDA.ipynb must run first**
 - **Rating-zero trap:** never analyze `Aggregate rating` without filtering to `Is Rated == True` first
@@ -124,17 +139,16 @@ print(df.shape)
 "
 
 # 2. Run the notebooks in order:
-#    EDA.ipynb -> Data_cleaning.ipynb -> Feature_Engineering.ipynb -> Deep_EDA.ipynb
+#    EDA.ipynb -> Data_cleaning.ipynb -> Feature_Engineering.ipynb -> Deep_EDA.ipynb -> Statistical_Validation.ipynb
 #    (Data_cleaning.ipynb imports the merged dataframe from EDA.ipynb via importnb;
-#     Feature_Engineering.ipynb and Deep_EDA.ipynb read straight from the Output/ CSVs)
+#     the later notebooks read straight from the Output/ CSVs)
 ```
 
-Requires Python 3 with pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn, and `importnb` (Anaconda distribution covers most).
+Requires Python 3 with pandas, numpy, matplotlib, seaborn, scipy, statsmodels, scikit-learn, and `importnb` (Anaconda distribution covers most).
 
 ## Roadmap ahead (India-focused)
 
 1. **Phase 3.5 — Derived metrics:** credibility-weighted (Bayesian) rating, competition density from lat/long (`BallTree`), value-for-money residual, cuisine co-occurrence, locality opportunity gaps
-2. **Phase 4 — Statistical validation:** Welch's t-test (booking, chain), ANOVA (price range), chi-square (delivery × price range) — with effect sizes and Holm correction; formally test the NCR-vs-rest gap found in Deep EDA
-3. **Phase 5 — Predictive modeling:** predict `Aggregate rating` with two framings (descriptive vs actionable — the latter excludes `Votes` as leakage); compare Linear/Ridge, Random Forest, XGBoost; plus a separate `Is Rated` cold-start classifier
-4. **Phase 6 — Insights & final report:** business takeaways, summary charts, save final datasets, limitations section
-5. **Optional:** Delhi-focused analysis with `file1–5.json` (~2,358 Delhi restaurants)
+2. **Phase 5 — Predictive modeling:** predict `Aggregate rating` with two framings (descriptive vs actionable — the latter excludes `Votes` as leakage), using `Price range` (or cost) and `Is NCR` as controls per Phase 4; compare Linear/Ridge, Random Forest, XGBoost; plus a separate `Is Rated` cold-start classifier
+3. **Phase 6 — Insights & final report:** business takeaways, summary charts, save final datasets, limitations section
+4. **Optional:** Delhi-focused analysis with `file1–5.json` (~2,358 Delhi restaurants)
