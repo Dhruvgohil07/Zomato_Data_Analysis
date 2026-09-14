@@ -1,6 +1,6 @@
 # Zomato Data Analysis
 
-End-to-end analysis of a global Zomato restaurant dataset: data cleaning, exploratory data analysis (EDA), feature engineering, deep EDA and statistical validation — with derived metrics and predictive modeling ahead.
+End-to-end analysis of a global Zomato restaurant dataset: data cleaning, exploratory data analysis (EDA), feature engineering, deep EDA, statistical validation, derived business metrics, predictive modeling, and a final insights/reporting phase — **complete**, aside from an optional Delhi-only extension. See [`Report.md`](Report.md) for the business-facing writeup.
 
 **Current scope (decision 2026-08-16, still valid): India-only analysis.** The full dataset mixes 12 currencies without conversion, so cross-country cost comparisons are invalid. See `../plan.md` for the full roadmap.
 
@@ -18,7 +18,7 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 | Statistical validation (Phase 4) | ✅ Complete | `Statistical_Validation.ipynb` (42 cells) |
 | Derived metrics (Phase 3.5) | ✅ Complete | `Derived_Metrics.ipynb` (80 cells) |
 | Predictive modeling (Phase 5) | ✅ Complete | `Modeling.ipynb` (58 cells) |
-| Reporting & final dataset | ⬜ Planned | — |
+| Insights & reporting (Phase 6) | ✅ Complete | `Insights_Reporting.ipynb` (31 cells) + [`Report.md`](Report.md) |
 
 ## Dataset
 
@@ -30,6 +30,7 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 - **`Output/phase4_test_results.csv`** — one row per Phase 4 test: statistic, raw and Holm-corrected p-values, effect size with 95% CI, verdict and caveat
 - **Phase 3.5 derived-metric outputs** (produced by `Derived_Metrics.ipynb`): `credibility_weighted_ratings.csv`, `value_for_money_residuals.csv`, `competition_density.csv`, `cuisine_pair_premium.csv`, `locality_cuisine_crosstab.csv`, `locality_pricerange_crosstab.csv`, `locality_opportunity_flags.csv`
 - **Phase 5 modeling outputs** (produced by `Modeling.ipynb`): `rating_model_comparison.csv`, `rating_model_predictions.csv`, `rating_feature_importance.csv`, `coldstart_risk_scores.csv`, `coldstart_feature_importance.csv`
+- **Phase 6 reporting outputs** (produced by `Insights_Reporting.ipynb`): `restaurant_master_insights.csv` (8,643 × 42 — every restaurant-level Phase 3.5/5 column joined in one place), `business_action_list.csv` (653 rows — flagged locality gaps, cuisine premiums, and high-risk restaurants in opportunity localities), and 5 chart PNGs under `Output/charts/`
 
 > ⚠️ The raw CSV is **latin-1 encoded**, not UTF-8 — always read it with `encoding="latin-1"`. The `Output/` CSVs are written by pandas and are **UTF-8**, so read those with the default encoding. Some accented names are already corrupted in the raw file (e.g. "Cafí©" for "Café"); this only affects how about 70 names display.
 
@@ -102,6 +103,16 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 - No SHAP (not installed, not added as a dependency) — permutation importance used throughout instead
 - Every code cell paired with a markdown `### Observation:` cell grounded in its actual output; executed end-to-end via `jupyter nbconvert --execute`, 0 errors
 
+### Insights & reporting (`Insights_Reporting.ipynb` — 31 cells + [`Report.md`](Report.md))
+
+- **Consolidated master table:** left-joins every restaurant-level Phase 3.5/5 output onto `df_featured.csv` by `Restaurant ID` → `Output/restaurant_master_insights.csv` (8,643 × 42); deliberately excludes model/test-level and composite-keyed files (those feed the action list/charts directly instead)
+- **Business action list:** stacks 167 locality demand-supply flags, 56 positive-premium cuisine pairings, and a new 430-restaurant cross-reference (top-decile cold-start risk **and** in a flagged opportunity locality) into one uniformly-shaped `Output/business_action_list.csv` (653 rows)
+- **5 cross-phase summary charts** (`Output/charts/`), each recombining data across ≥2 prior phases rather than re-plotting anything: growth opportunities, cold-start risk vs. demand by locality, the two residual lenses (cost-only vs. full-feature-model — agree 74.9% of the time, r=0.784), the cuisine-fusion leaderboard, and the credibility-adjusted rank reshuffle
+- **8 numbered, action-oriented business recommendations**, each citing a specific `Output/` file — a different register from the findings list above (this says what to do, not just what was observed)
+- **Limitations section** (6 rows, extends `plan.md` §7's original 4 with the R² ceiling and cold-start degeneracy Phase 5 surfaced)
+- Every code cell paired with a markdown `### Observation:` cell grounded in its actual output; executed end-to-end via `jupyter nbconvert --execute`, 0 errors
+- Its narrative content is reassembled, code-free, into [`Report.md`](Report.md) for a non-technical reader
+
 ## Key findings so far
 
 1. **The data mixes 12 currencies without conversion** (INR, USD, IDR, GBP, …). Apparent cross-country "outliers" were a currency artifact — e.g. every cost above 10,000 is Indonesian Rupiah (800,000 IDR ≈ $50 USD). This drove the India-only decision.
@@ -124,6 +135,8 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 18. **Locality opportunity flags are almost entirely an NCR phenomenon** (165 of 167, 98.8%) — not because non-NCR has no gaps, but because non-NCR localities rarely reach the ≥30-restaurant threshold needed to flag reliably.
 19. **The actionable rating model tops out at R² ≈ 0.40.** With `Log_Votes` excluded as leakage, `Locality` becomes the dominant predictor (~3× the next feature), `Is NCR` is second (negatively signed, consistent with finding 11), and cost/price-range and operational flags (booking, delivery, chain) add comparatively little — a modest R² is the honest finding, not a modeling shortfall.
 20. **The cold-start classifier reaches AUC ≈ 0.89–0.90.** `Locality` and `Has Online delivery` are its strongest drivers; because 100% of unrated restaurants are in NCR, the outside-NCR subset is a trivial, single-class case (AUC undefined there) and NCR-only performance (≈0.89) is the number that reflects real predictive skill.
+21. **The two "value" lenses mostly agree, but diverge for 1 in 4 restaurants.** The cost-only value-for-money residual (Phase 3.5) and the full-feature model residual (Phase 5) correlate at r=0.784, but disagree on sign for 25.1% of rated restaurants — flagged in `Report.md` as a manual-review queue rather than a contradiction to resolve.
+22. **Cold-start risk and locality opportunity flags are largely independent signals.** Mean cold-start risk falls sharply as a locality's typical demand rises, regardless of whether that locality carries a demand-supply flag (88 of 102 qualifying localities do) — which is why the Phase 6 action list needed an explicit restaurant-level cross-reference (430 restaurants) rather than relying on locality flags alone.
 
 ## Repository structure
 
@@ -136,6 +149,8 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 ├── Statistical_Validation.ipynb # Phase 4: hypothesis tests, effect sizes, Holm correction (42 cells)
 ├── Derived_Metrics.ipynb        # Phase 3.5: 5 derived metrics for Phase 5/6 (80 cells)
 ├── Modeling.ipynb                # Phase 5: rating prediction (5A) + cold-start classifier (5B) (58 cells)
+├── Insights_Reporting.ipynb      # Phase 6: consolidated dataset, action list, 5 charts, takeaways, limitations (31 cells)
+├── Report.md                     # Code-free business report, derived from Insights_Reporting.ipynb
 ├── Output/
 │   ├── df_india_cleaned         # Phase 2 output: cleaned India base (8,643 rows)
 │   ├── df_featured.csv          # Feature-engineered base used by Deep_EDA / Statistical_Validation
@@ -151,7 +166,10 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 │   ├── rating_model_predictions.csv       # Phase 5: 5A out-of-fold predicted rating per restaurant
 │   ├── rating_feature_importance.csv      # Phase 5: 5A permutation importance by framing/model
 │   ├── coldstart_risk_scores.csv          # Phase 5: 5B out-of-fold cold-start risk score, all 8,643 rows
-│   └── coldstart_feature_importance.csv   # Phase 5: 5B permutation importance
+│   ├── coldstart_feature_importance.csv   # Phase 5: 5B permutation importance
+│   ├── restaurant_master_insights.csv     # Phase 6: every restaurant-level Phase 3.5/5 column, joined (8,643 × 42)
+│   ├── business_action_list.csv           # Phase 6: 653-row action list (locality gaps + cuisine premiums + high-risk restaurants)
+│   └── charts/                            # Phase 6: 5 summary chart PNGs
 └── Zomatodataset/                # Raw data (CSV, XLSX, JSON)
     ├── zomato.csv                # Main dataset (9,551 rows × 21 cols)
     ├── Country-Code.xlsx         # Country code → name mapping
@@ -183,13 +201,15 @@ print(df.shape)
 # 2. Run the notebooks in order:
 #    EDA.ipynb -> Data_cleaning.ipynb -> Feature_Engineering.ipynb -> Deep_EDA.ipynb
 #    -> Statistical_Validation.ipynb -> Derived_Metrics.ipynb -> Modeling.ipynb
+#    -> Insights_Reporting.ipynb
 #    (Data_cleaning.ipynb imports the merged dataframe from EDA.ipynb via importnb;
 #     the later notebooks read straight from the Output/ CSVs)
 ```
 
 Requires Python 3 with pandas, numpy, matplotlib, seaborn, scipy, statsmodels, scikit-learn, xgboost, and `importnb` (Anaconda distribution covers most; install `xgboost` separately if missing).
 
-## Roadmap ahead (India-focused)
+## Roadmap ahead
 
-1. **Phase 6 — Insights & final report:** business takeaways tied to the Phase 3.5 derived metrics and Phase 5 model outputs (cold-start risk scores, value-for-money/model residuals), summary charts, save final datasets, limitations section (91% NCR concentration, 24.7% unrated, votes/rating simultaneity, no time dimension, no true currency conversion, ~0.40 R² ceiling on the actionable rating model)
-2. **Optional:** Delhi-focused analysis with `file1–5.json` (~2,358 Delhi restaurants)
+The core analysis (Phases 0–6) is **complete** — see [`Report.md`](Report.md) for the business-facing writeup. The only remaining item is optional:
+
+- **Optional:** Delhi-focused analysis with `file1–5.json` (~2,358 Delhi restaurants) — never started, not required for the main deliverable.

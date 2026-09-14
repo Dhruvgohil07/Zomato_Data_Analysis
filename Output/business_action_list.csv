@@ -1,0 +1,654 @@
+Action_Type,Location_or_Segment,Metric_1_Name,Metric_1_Value,Metric_2_Name,Metric_2_Value,Source_File,Is_NCR
+Locality demand-supply gap,Alaknanda,AvgVotesPerRestaurant,452.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Ashok Vihar Phase 1,AvgVotesPerRestaurant,135.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Chandni Chowk,AvgVotesPerRestaurant,521.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Greater Noida,AvgVotesPerRestaurant,56.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Defence Colony,AvgVotesPerRestaurant,782.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Daryaganj,AvgVotesPerRestaurant,85.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,"DLF Mall of India, Sector 18,  Noida",AvgVotesPerRestaurant,567.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,"Cyber Hub, DLF Cyber City",AvgVotesPerRestaurant,1518.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Connaught Place,AvgVotesPerRestaurant,2620.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 41,AvgVotesPerRestaurant,117.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 50,AvgVotesPerRestaurant,267.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 56,AvgVotesPerRestaurant,46.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 62,AvgVotesPerRestaurant,147.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 18,AvgVotesPerRestaurant,574.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 29,AvgVotesPerRestaurant,966.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Geeta Colony,AvgVotesPerRestaurant,31.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,East Patel Nagar,AvgVotesPerRestaurant,359.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Greater Kailash (GK) 1,AvgVotesPerRestaurant,697.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Kalkaji,AvgVotesPerRestaurant,492.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Kirti Nagar,AvgVotesPerRestaurant,68.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Laxmi Nagar,AvgVotesPerRestaurant,270.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Janpath,AvgVotesPerRestaurant,1869.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Jail Road,AvgVotesPerRestaurant,60.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,IP Extension,AvgVotesPerRestaurant,113.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Hauz Khas,AvgVotesPerRestaurant,1823.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Netaji Subhash Place,AvgVotesPerRestaurant,459.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Mukherjee Nagar,AvgVotesPerRestaurant,14.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Naraina,AvgVotesPerRestaurant,23.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,New Friends Colony,AvgVotesPerRestaurant,189.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Palam Vihar,AvgVotesPerRestaurant,19.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Paschim Vihar,AvgVotesPerRestaurant,92.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Old Railway Road,AvgVotesPerRestaurant,33.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Palam,AvgVotesPerRestaurant,3.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Mayur Vihar Phase 3,AvgVotesPerRestaurant,51.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Malviya Nagar,AvgVotesPerRestaurant,221.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,MG Road,AvgVotesPerRestaurant,656.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Najafgarh,AvgVotesPerRestaurant,2.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,"Logix City Centre, Sector 32, Noida",AvgVotesPerRestaurant,26.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Rohini,AvgVotesPerRestaurant,135.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Punjabi Bagh,AvgVotesPerRestaurant,111.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Preet Vihar,AvgVotesPerRestaurant,121.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Satyaniketan,AvgVotesPerRestaurant,715.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 110,AvgVotesPerRestaurant,84.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 132,AvgVotesPerRestaurant,55.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sainik Farms,AvgVotesPerRestaurant,17.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,R K Puram,AvgVotesPerRestaurant,629.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 12,AvgVotesPerRestaurant,1182.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sohna Road,AvgVotesPerRestaurant,121.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sushant Lok,AvgVotesPerRestaurant,125.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Udyog Vihar,AvgVotesPerRestaurant,12.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vasundhara Enclave,AvgVotesPerRestaurant,16.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vivek Vihar,AvgVotesPerRestaurant,88.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vikaspuri,AvgVotesPerRestaurant,36.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vasant Vihar,AvgVotesPerRestaurant,299.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Uttam Nagar,AvgVotesPerRestaurant,8.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 72,AvgVotesPerRestaurant,27.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,"The Great India Place, Sector 38",AvgVotesPerRestaurant,679.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 15,AvgVotesPerRestaurant,799.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Naraina,AvgVotesPerRestaurant,15.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,New Friends Colony,AvgVotesPerRestaurant,391.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Old Railway Road,AvgVotesPerRestaurant,25.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Rajinder Nagar,AvgVotesPerRestaurant,102.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Safdarjung,AvgVotesPerRestaurant,359.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Tilak Nagar,AvgVotesPerRestaurant,160.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Udyog Vihar,AvgVotesPerRestaurant,27.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 72,AvgVotesPerRestaurant,22.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,"The Great India Place, Sector 38",AvgVotesPerRestaurant,688.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vasant Vihar,AvgVotesPerRestaurant,114.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vikaspuri,AvgVotesPerRestaurant,35.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Kamla Nagar,AvgVotesPerRestaurant,175.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Kalkaji,AvgVotesPerRestaurant,194.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sainik Farms,AvgVotesPerRestaurant,13.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 132,AvgVotesPerRestaurant,57.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Ashok Vihar Phase 1,AvgVotesPerRestaurant,35.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Anand Vihar,AvgVotesPerRestaurant,106.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,DLF Phase 3,AvgVotesPerRestaurant,75.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Daryaganj,AvgVotesPerRestaurant,711.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Chandni Chowk,AvgVotesPerRestaurant,305.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Chanakyapuri,AvgVotesPerRestaurant,87.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Gujranwala Town,AvgVotesPerRestaurant,155.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,IP Extension,AvgVotesPerRestaurant,96.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,East of Kailash,AvgVotesPerRestaurant,686.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Green Park,AvgVotesPerRestaurant,303.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Jail Road,AvgVotesPerRestaurant,621.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Jangpura,AvgVotesPerRestaurant,744.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Dilshad Garden,AvgVotesPerRestaurant,56.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Defence Colony,AvgVotesPerRestaurant,354.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Mayur Vihar Phase 1,AvgVotesPerRestaurant,80.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Rajouri Garden,AvgVotesPerRestaurant,413.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,MG Road,AvgVotesPerRestaurant,236.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Pitampura,AvgVotesPerRestaurant,70.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vikaspuri,AvgVotesPerRestaurant,34.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 50,AvgVotesPerRestaurant,161.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Preet Vihar,AvgVotesPerRestaurant,102.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,East Patel Nagar,AvgVotesPerRestaurant,119.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 14,AvgVotesPerRestaurant,34.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Naraina,AvgVotesPerRestaurant,15.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Uttam Nagar,AvgVotesPerRestaurant,6.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 15,AvgVotesPerRestaurant,155.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Lodhi Colony,AvgVotesPerRestaurant,330.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Connaught Place,AvgVotesPerRestaurant,2524.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Anand Vihar,AvgVotesPerRestaurant,58.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sushant Lok,AvgVotesPerRestaurant,80.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Palam Vihar,AvgVotesPerRestaurant,17.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Mukherjee Nagar,AvgVotesPerRestaurant,9.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Saket,AvgVotesPerRestaurant,237.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 37,AvgVotesPerRestaurant,74.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Green Park,AvgVotesPerRestaurant,271.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 110,AvgVotesPerRestaurant,47.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Civil Lines,AvgVotesPerRestaurant,126.0,Supply,2,locality_opportunity_flags.csv,0.0
+Locality demand-supply gap,Chittaranjan Park,AvgVotesPerRestaurant,112.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,"Logix City Centre, Sector 32, Noida",AvgVotesPerRestaurant,18.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,East of Kailash,AvgVotesPerRestaurant,24.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 132,AvgVotesPerRestaurant,15.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Paschim Vihar,AvgVotesPerRestaurant,62.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Greater Noida,AvgVotesPerRestaurant,36.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Nehru Place,AvgVotesPerRestaurant,177.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Udyog Vihar,AvgVotesPerRestaurant,11.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Janpath,AvgVotesPerRestaurant,731.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Tagore Garden,AvgVotesPerRestaurant,54.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Rajinder Nagar,AvgVotesPerRestaurant,119.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Pitampura,AvgVotesPerRestaurant,68.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Old Railway Road,AvgVotesPerRestaurant,18.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vikaspuri,AvgVotesPerRestaurant,33.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 50,AvgVotesPerRestaurant,160.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Preet Vihar,AvgVotesPerRestaurant,100.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 17,AvgVotesPerRestaurant,21.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Kirti Nagar,AvgVotesPerRestaurant,57.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Naraina,AvgVotesPerRestaurant,13.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Greater Kailash (GK) 2,AvgVotesPerRestaurant,267.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Jail Road,AvgVotesPerRestaurant,41.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 72,AvgVotesPerRestaurant,5.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vasundhara Enclave,AvgVotesPerRestaurant,8.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Punjabi Bagh,AvgVotesPerRestaurant,93.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Lodhi Colony,AvgVotesPerRestaurant,171.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 41,AvgVotesPerRestaurant,33.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 14,AvgVotesPerRestaurant,32.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 62,AvgVotesPerRestaurant,118.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Green Park,AvgVotesPerRestaurant,235.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sushant Lok,AvgVotesPerRestaurant,53.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Netaji Subhash Place,AvgVotesPerRestaurant,211.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Saket,AvgVotesPerRestaurant,184.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 37,AvgVotesPerRestaurant,66.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vasant Vihar,AvgVotesPerRestaurant,42.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Tilak Nagar,AvgVotesPerRestaurant,11.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Jangpura,AvgVotesPerRestaurant,55.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,DLF Phase 3,AvgVotesPerRestaurant,43.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Palam Vihar,AvgVotesPerRestaurant,15.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Laxmi Nagar,AvgVotesPerRestaurant,72.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Chittaranjan Park,AvgVotesPerRestaurant,109.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Civil Lines,AvgVotesPerRestaurant,106.0,Supply,1,locality_opportunity_flags.csv,0.0
+Locality demand-supply gap,Paharganj,AvgVotesPerRestaurant,29.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Lajpat Nagar 1,AvgVotesPerRestaurant,25.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,"DLF Mall of India, Sector 18,  Noida",AvgVotesPerRestaurant,324.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Vijay Nagar,AvgVotesPerRestaurant,414.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 45,AvgVotesPerRestaurant,24.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,IP Extension,AvgVotesPerRestaurant,43.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Rajouri Garden,AvgVotesPerRestaurant,313.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Rajinder Nagar,AvgVotesPerRestaurant,83.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Paschim Vihar,AvgVotesPerRestaurant,58.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,R K Puram,AvgVotesPerRestaurant,96.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Nehru Place,AvgVotesPerRestaurant,103.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Malviya Nagar,AvgVotesPerRestaurant,192.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Moti Nagar,AvgVotesPerRestaurant,20.0,Supply,1,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,East Patel Nagar,AvgVotesPerRestaurant,95.0,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Sector 18,AvgVotesPerRestaurant,358.5,Supply,2,locality_opportunity_flags.csv,1.0
+Locality demand-supply gap,Preet Vihar,AvgVotesPerRestaurant,47.0,Supply,1,locality_opportunity_flags.csv,1.0
+Cuisine pairing premium,Mediterranean + North Indian,rating_premium,0.5505757766763932,n_restaurants,49,cuisine_pair_premium.csv,
+Cuisine pairing premium,European + North Indian,rating_premium,0.4164286768162055,n_restaurants,63,cuisine_pair_premium.csv,
+Cuisine pairing premium,Asian + North Indian,rating_premium,0.3601717288621042,n_restaurants,88,cuisine_pair_premium.csv,
+Cuisine pairing premium,American + North Indian,rating_premium,0.3572547292701467,n_restaurants,43,cuisine_pair_premium.csv,
+Cuisine pairing premium,Chinese + Mexican,rating_premium,0.3462159452344782,n_restaurants,48,cuisine_pair_premium.csv,
+Cuisine pairing premium,Asian + Chinese,rating_premium,0.3191392123201648,n_restaurants,65,cuisine_pair_premium.csv,
+Cuisine pairing premium,Mexican + North Indian,rating_premium,0.314226274712257,n_restaurants,56,cuisine_pair_premium.csv,
+Cuisine pairing premium,North Indian + Thai,rating_premium,0.309419966272916,n_restaurants,55,cuisine_pair_premium.csv,
+Cuisine pairing premium,North Indian + Seafood,rating_premium,0.299740305545924,n_restaurants,35,cuisine_pair_premium.csv,
+Cuisine pairing premium,Cafe + Italian,rating_premium,0.2732563396431002,n_restaurants,143,cuisine_pair_premium.csv,
+Cuisine pairing premium,Cafe + Desserts,rating_premium,0.2638796856858287,n_restaurants,42,cuisine_pair_premium.csv,
+Cuisine pairing premium,Chinese + Japanese,rating_premium,0.2622078782856953,n_restaurants,49,cuisine_pair_premium.csv,
+Cuisine pairing premium,European + Italian,rating_premium,0.2601739388328985,n_restaurants,36,cuisine_pair_premium.csv,
+Cuisine pairing premium,Cafe + Fast Food,rating_premium,0.2599108979467326,n_restaurants,65,cuisine_pair_premium.csv,
+Cuisine pairing premium,Cafe + Continental,rating_premium,0.2542999183129693,n_restaurants,107,cuisine_pair_premium.csv,
+Cuisine pairing premium,Bakery + Cafe,rating_premium,0.2500447778518966,n_restaurants,38,cuisine_pair_premium.csv,
+Cuisine pairing premium,Finger Food + North Indian,rating_premium,0.2487159394042319,n_restaurants,41,cuisine_pair_premium.csv,
+Cuisine pairing premium,Italian + North Indian,rating_premium,0.2427183454443735,n_restaurants,280,cuisine_pair_premium.csv,
+Cuisine pairing premium,Chinese + Thai,rating_premium,0.2415100715998352,n_restaurants,173,cuisine_pair_premium.csv,
+Cuisine pairing premium,American + Continental,rating_premium,0.2368902812245337,n_restaurants,46,cuisine_pair_premium.csv,
+Cuisine pairing premium,Cafe + Chinese,rating_premium,0.2175324498164959,n_restaurants,84,cuisine_pair_premium.csv,
+Cuisine pairing premium,Chinese + Italian,rating_premium,0.2157918766408952,n_restaurants,207,cuisine_pair_premium.csv,
+Cuisine pairing premium,Italian + Mediterranean,rating_premium,0.204251469554697,n_restaurants,33,cuisine_pair_premium.csv,
+Cuisine pairing premium,Chinese + Seafood,rating_premium,0.1995395361754828,n_restaurants,43,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + North Indian,rating_premium,0.1967296308350614,n_restaurants,440,cuisine_pair_premium.csv,
+Cuisine pairing premium,American + Italian,rating_premium,0.1872735732372685,n_restaurants,56,cuisine_pair_premium.csv,
+Cuisine pairing premium,Cafe + North Indian,rating_premium,0.1748328601423088,n_restaurants,68,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + European,rating_premium,0.1632149564076512,n_restaurants,36,cuisine_pair_premium.csv,
+Cuisine pairing premium,Chinese + Continental,rating_premium,0.1483930075501813,n_restaurants,282,cuisine_pair_premium.csv,
+Cuisine pairing premium,Biryani + Mughlai,rating_premium,0.1394491470607377,n_restaurants,34,cuisine_pair_premium.csv,
+Cuisine pairing premium,Beverages + Desserts,rating_premium,0.1388224423048902,n_restaurants,37,cuisine_pair_premium.csv,
+Cuisine pairing premium,Desserts + Fast Food,rating_premium,0.1327731429828174,n_restaurants,146,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + Italian,rating_premium,0.1241776592688039,n_restaurants,263,cuisine_pair_premium.csv,
+Cuisine pairing premium,Chinese + Desserts,rating_premium,0.1214891091348224,n_restaurants,41,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + Mughlai,rating_premium,0.1101391929013342,n_restaurants,33,cuisine_pair_premium.csv,
+Cuisine pairing premium,Asian + Continental,rating_premium,0.109501478822239,n_restaurants,66,cuisine_pair_premium.csv,
+Cuisine pairing premium,Burger + Fast Food,rating_premium,0.0952541911997499,n_restaurants,132,cuisine_pair_premium.csv,
+Cuisine pairing premium,Italian + Mexican,rating_premium,0.0944149970245207,n_restaurants,80,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + Mediterranean,rating_premium,0.09370609315074,n_restaurants,34,cuisine_pair_premium.csv,
+Cuisine pairing premium,Asian + Italian,rating_premium,0.0849531436603188,n_restaurants,31,cuisine_pair_premium.csv,
+Cuisine pairing premium,Desserts + North Indian,rating_premium,0.0830024950278227,n_restaurants,42,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + Mexican,rating_premium,0.0827625874531126,n_restaurants,47,cuisine_pair_premium.csv,
+Cuisine pairing premium,Japanese + Thai,rating_premium,0.0728083948227191,n_restaurants,41,cuisine_pair_premium.csv,
+Cuisine pairing premium,Finger Food + Italian,rating_premium,0.0685670847343709,n_restaurants,32,cuisine_pair_premium.csv,
+Cuisine pairing premium,Beverages + Fast Food,rating_premium,0.0645008771338653,n_restaurants,68,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + Fast Food,rating_premium,0.0644067718304164,n_restaurants,43,cuisine_pair_premium.csv,
+Cuisine pairing premium,Bakery + Fast Food,rating_premium,0.0603964735126187,n_restaurants,184,cuisine_pair_premium.csv,
+Cuisine pairing premium,Biryani + North Indian,rating_premium,0.0450621104945456,n_restaurants,69,cuisine_pair_premium.csv,
+Cuisine pairing premium,Continental + Thai,rating_premium,0.043725071121571,n_restaurants,38,cuisine_pair_premium.csv,
+Cuisine pairing premium,Bakery + Desserts,rating_premium,0.032936602183593,n_restaurants,219,cuisine_pair_premium.csv,
+Cuisine pairing premium,Asian + Thai,rating_premium,0.0261053509697695,n_restaurants,43,cuisine_pair_premium.csv,
+Cuisine pairing premium,Desserts + Street Food,rating_premium,0.0202393727017877,n_restaurants,36,cuisine_pair_premium.csv,
+Cuisine pairing premium,Bakery + Chinese,rating_premium,0.0172121335195711,n_restaurants,30,cuisine_pair_premium.csv,
+Cuisine pairing premium,Fast Food + Street Food,rating_premium,0.013866216808045,n_restaurants,77,cuisine_pair_premium.csv,
+Cuisine pairing premium,Italian + Lebanese,rating_premium,0.0074521570090424,n_restaurants,33,cuisine_pair_premium.csv,
+Cuisine pairing premium,Fast Food + Italian,rating_premium,0.0043780211951851,n_restaurants,111,cuisine_pair_premium.csv,
+High-risk restaurant in opportunity locality,Garam Masala (Sector 12),Coldstart_Risk_Score,0.9279508939800714,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Eat N Treat (Sector 17),Coldstart_Risk_Score,0.9174109117777804,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Red Chilli (Sector 17),Coldstart_Risk_Score,0.9462370877378236,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shiv Restaurant (Sector 17),Coldstart_Risk_Score,0.961476535573174,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sohan Sweets & Namkeen (Sector 17),Coldstart_Risk_Score,0.946093817938838,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Binge Box Cafe (Sector 17),Coldstart_Risk_Score,0.8961755144362997,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Baskin Robbins (Palam Vihar),Coldstart_Risk_Score,0.9143232924589204,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Burger Bites & More (Palam Vihar),Coldstart_Risk_Score,0.9216474722008188,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chawla Bakers (Palam Vihar),Coldstart_Risk_Score,0.9210506670861728,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Darjeeling Kanchanjanga Momos (Palam Vihar),Coldstart_Risk_Score,0.905169183268702,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Desserts 83 (Palam Vihar),Coldstart_Risk_Score,0.9472754806894872,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Express Kitchen (Palam Vihar),Coldstart_Risk_Score,0.9539177454839614,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shree Shyam Rasoi (Palam Vihar),Coldstart_Risk_Score,0.9467891896475832,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bakelicious 18 (Palam Vihar),Coldstart_Risk_Score,0.9047157356673424,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bansiwala Rasoi (Palam Vihar),Coldstart_Risk_Score,0.9147455987418364,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bansiwala Sweets (Palam Vihar),Coldstart_Risk_Score,0.909347530225209,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Best Pizza Hut (Palam Vihar),Coldstart_Risk_Score,0.9174682139565964,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chulha (Palam Vihar),Coldstart_Risk_Score,0.9338454654889689,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Gautam Bakery (Palam Vihar),Coldstart_Risk_Score,0.9098027103262646,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Honey Hot & Spicy (Palam Vihar),Coldstart_Risk_Score,0.9777571886312512,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hot Fork (Palam Vihar),Coldstart_Risk_Score,0.9187030480445332,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Icon Foods (Palam Vihar),Coldstart_Risk_Score,0.9309513675934484,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mamta Tiffin Service (Palam Vihar),Coldstart_Risk_Score,0.985898325751317,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Radha Swami Shudh Vaishno Dhaba (Palam Vihar),Coldstart_Risk_Score,0.9275364687442784,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Savour (Palam Vihar),Coldstart_Risk_Score,0.9481412269554076,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sheetla Dhaba (Palam Vihar),Coldstart_Risk_Score,0.9121642607626608,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shree Bikaner Mishthan Bhandar (Palam Vihar),Coldstart_Risk_Score,0.9019592463484292,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shree Shyam Bhojnalaya (Palam Vihar),Coldstart_Risk_Score,0.9367349631062184,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shristi Happy Eats (Palam Vihar),Coldstart_Risk_Score,0.9469718405933644,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Singh Terrace Grill (Palam Vihar),Coldstart_Risk_Score,0.9064603937162318,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Swami Vaishno Dhaba (Palam Vihar),Coldstart_Risk_Score,0.9121642607626608,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Wah Ji Wah (Palam Vihar),Coldstart_Risk_Score,0.9248924742681436,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Maa Bhagwati Tiffins (Sector 12),Coldstart_Risk_Score,0.8988210823708154,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,ANTIDOTE (Sector 17),Coldstart_Risk_Score,0.9852819054393464,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bablu Fast Food (Sector 17),Coldstart_Risk_Score,0.9178952424881076,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Biryani & Rolls (Sector 17),Coldstart_Risk_Score,0.9317232202273538,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Coffee Day (Sector 17),Coldstart_Risk_Score,0.9705235222056768,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chefy's Kitchen (Sector 17),Coldstart_Risk_Score,0.9523933620005868,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dilli Rasoi (Sector 17),Coldstart_Risk_Score,0.8936736458124904,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dujal Cafe (Sector 17),Coldstart_Risk_Score,0.917572636585788,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,HSI Food World (Sector 17),Coldstart_Risk_Score,0.8955417957520583,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Luncheon Box (Sector 17),Coldstart_Risk_Score,0.981355518591198,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Radha Swami Shudh Vaishno Dhaba (Sector 17),Coldstart_Risk_Score,0.8952868607562158,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Raju Vaishno Amritsari Dhaba (Sector 17),Coldstart_Risk_Score,0.9382448850996588,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,VK Food Court (Sector 17),Coldstart_Risk_Score,0.9090556300621496,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Apna Dabba (Sector 45),Coldstart_Risk_Score,0.9672019070729484,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cherry Crossing Foods (Sector 45),Coldstart_Risk_Score,0.9688384505222308,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Foody Goody (Sector 45),Coldstart_Risk_Score,0.8914590316851417,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shri Sai Kirpa Food (Sector 45),Coldstart_Risk_Score,0.9006445289295608,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Breakfast Bite (Sector 45),Coldstart_Risk_Score,0.9496646270949604,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aarush - A Mediterranean Kitchen (Sector 56),Coldstart_Risk_Score,0.8988718110894405,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Ghar Ki Handi (Sector 56),Coldstart_Risk_Score,0.951286530742104,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Midnight Hunger (Sector 56),Coldstart_Risk_Score,0.8931365181124347,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cookingo (Sector 56),Coldstart_Risk_Score,0.915597803529552,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Firefly (Sector 56),Coldstart_Risk_Score,0.9498204109706792,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Foodie Xpress (Sector 56),Coldstart_Risk_Score,0.951286530742104,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Vijeta's Happy Kitchen (Sector 56),Coldstart_Risk_Score,0.9498204109706792,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,My Plate (Udyog Vihar),Coldstart_Risk_Score,0.936390066374144,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,World Art Cafe (Udyog Vihar),Coldstart_Risk_Score,0.9056001030642288,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,XLNC Bakers (Udyog Vihar),Coldstart_Risk_Score,0.9396763357779572,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Adventure Food (Udyog Vihar),Coldstart_Risk_Score,0.922026623756252,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bandhani Fast Food (Udyog Vihar),Coldstart_Risk_Score,0.9197803964333344,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Coffee Day (Udyog Vihar),Coldstart_Risk_Score,0.9664225162643646,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dheeraj Vaishno Dhaba (Udyog Vihar),Coldstart_Risk_Score,0.9452067793747126,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Knights Kitchen (Udyog Vihar),Coldstart_Risk_Score,0.9343523103643576,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Ku-Kukdu-Ku (Udyog Vihar),Coldstart_Risk_Score,0.9215415724754188,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Renu Sweets & Restaurant (Udyog Vihar),Coldstart_Risk_Score,0.9310493371353108,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Uttrakhand Bohra Bhojnalaya & Fast Food (Udyog Vihar),Coldstart_Risk_Score,0.9452067793747126,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Uttrakhand Dhaba (Udyog Vihar),Coldstart_Risk_Score,0.92564157467071,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cakeophony By Sonali (Alaknanda),Coldstart_Risk_Score,0.9107770941332902,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rama Desi Ghee Meat Wala (Ashok Vihar Phase 1),Coldstart_Risk_Score,0.9204746350028912,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Coffee Day (Daryaganj),Coldstart_Risk_Score,0.9340555165461876,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delhi 6 Foods (Daryaganj),Coldstart_Risk_Score,0.9573659740640882,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hilal Hotel Nihari (Daryaganj),Coldstart_Risk_Score,0.9604050802867145,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Taj Chicken Point (Daryaganj),Coldstart_Risk_Score,0.9340859086526268,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Da Pizza Farm (Dilshad Garden),Coldstart_Risk_Score,0.947209850790617,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Froshier Fruits (East of Kailash),Coldstart_Risk_Score,0.9605316103325744,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,17 Degree Food Service (East of Kailash),Coldstart_Risk_Score,0.9632348168875636,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aurangzeb (East of Kailash),Coldstart_Risk_Score,0.9238731163606424,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delhi Food Adda (East of Kailash),Coldstart_Risk_Score,0.946796675666282,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delhi Pizza Corner (East of Kailash),Coldstart_Risk_Score,0.9436218375587546,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dessert Carte (East of Kailash),Coldstart_Risk_Score,0.909206806269257,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Firangi Mithai (East of Kailash),Coldstart_Risk_Score,0.9769519868747828,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Heera Chicken Corner (East of Kailash),Coldstart_Risk_Score,0.9682999519161009,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Janaab (East of Kailash),Coldstart_Risk_Score,0.9398401931757387,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sher-e-Punjab (East of Kailash),Coldstart_Risk_Score,0.9452700915690376,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Uncle Sam (East of Kailash),Coldstart_Risk_Score,0.9680484378323018,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,China Town (Geeta Colony),Coldstart_Risk_Score,0.9638095330919948,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Guru Kripa (Geeta Colony),Coldstart_Risk_Score,0.9123994636161816,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rahul Meat Corner (Geeta Colony),Coldstart_Risk_Score,0.890803632609278,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Nagpal Di Hatti (Geeta Colony),Coldstart_Risk_Score,0.9557307198098952,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Baweja's Haandi (Geeta Colony),Coldstart_Risk_Score,0.9512123512353176,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Insane Foods (Geeta Colony),Coldstart_Risk_Score,0.9776831697010432,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kailash Vaishno Dhaba (Geeta Colony),Coldstart_Risk_Score,0.8954751106735868,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Khurana Eating Point (Geeta Colony),Coldstart_Risk_Score,0.902657514403654,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Lots of Food (Geeta Colony),Coldstart_Risk_Score,0.9607585898663344,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Parantha on Call (Geeta Colony),Coldstart_Risk_Score,0.9706247040600172,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Prem Ji Delhi Wale (Geeta Colony),Coldstart_Risk_Score,0.9008365216336264,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Spice Studio (Geeta Colony),Coldstart_Risk_Score,0.9332077559874196,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Tandoori Tadka (Geeta Colony),Coldstart_Risk_Score,0.9445942872027646,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Choco-House Chocolatiers (IP Extension),Coldstart_Risk_Score,0.9129695746618804,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Gluten Free by Deepika (IP Extension),Coldstart_Risk_Score,0.9276398813833104,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Little Cup Cake (IP Extension),Coldstart_Risk_Score,0.9251064836203888,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Starve Stalkers (IP Extension),Coldstart_Risk_Score,0.9177402338121268,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cocoalicious Delights (Lajpat Nagar 1),Coldstart_Risk_Score,0.9428465512938988,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Food Junction (Lajpat Nagar 1),Coldstart_Risk_Score,0.895127917052566,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Gian Ji Punjabi Dhaba (Lajpat Nagar 1),Coldstart_Risk_Score,0.895527684835213,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,New Anna Ka Dosa (Lajpat Nagar 1),Coldstart_Risk_Score,0.9040146694791796,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sunrise Bakery (Lajpat Nagar 1),Coldstart_Risk_Score,0.97184985028887,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Celiac Kitchen (Lajpat Nagar 1),Coldstart_Risk_Score,0.932851605600632,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,36 lebzelter (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.8955943240279138,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Buzybee (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.905322600586981,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Tandoor (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.9280818452666554,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Fumble Foods (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.9043377079819244,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Goodies- Snacks N More (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.893997386784386,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Grubhouse Cafe (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.9304698684022228,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Satnaam Foods (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.9341823444311946,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,South Indian (Mayur Vihar Phase 1),Coldstart_Risk_Score,0.9239972698173756,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bimbo Cakes (Moti Nagar),Coldstart_Risk_Score,0.9653798708246948,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Pindiwala (Moti Nagar),Coldstart_Risk_Score,0.9147953334567164,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sai Rasoi (Moti Nagar),Coldstart_Risk_Score,0.911886506439326,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chap Corner (Moti Nagar),Coldstart_Risk_Score,0.9457286614465864,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Street Chaat Chatoron Ka Adda (Moti Nagar),Coldstart_Risk_Score,0.9457286614465864,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,34 Parkstreet Lane (Mukherjee Nagar),Coldstart_Risk_Score,0.9051263057552285,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bhikaram Bhujawala (Mukherjee Nagar),Coldstart_Risk_Score,0.9205893913471206,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chawla The Pastry Palace (Mukherjee Nagar),Coldstart_Risk_Score,0.93062773499549,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Food Box (Mukherjee Nagar),Coldstart_Risk_Score,0.8909121877611492,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Heaven's Shawarma (Mukherjee Nagar),Coldstart_Risk_Score,0.984188725848614,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hyderabad Spl. Chicken Biryani Point (Mukherjee Nagar),Coldstart_Risk_Score,0.9405673117542506,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Milan Chole Bhature (Mukherjee Nagar),Coldstart_Risk_Score,0.9308219248940782,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Pasta Hub (Mukherjee Nagar),Coldstart_Risk_Score,0.914427188690894,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Patna Roll Center (Mukherjee Nagar),Coldstart_Risk_Score,0.900842309497456,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Refuel (Mukherjee Nagar),Coldstart_Risk_Score,0.9229711610606314,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shivam Corner (Mukherjee Nagar),Coldstart_Risk_Score,0.9269189159262494,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Swad Mubarak (Mukherjee Nagar),Coldstart_Risk_Score,0.928636753383645,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Yummy Adda (Mukherjee Nagar),Coldstart_Risk_Score,0.8944648119125076,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bawarchi's Canteen (Mukherjee Nagar),Coldstart_Risk_Score,0.9140362113942964,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chaap Chaska (Mukherjee Nagar),Coldstart_Risk_Score,0.8960212141249363,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delhi Chaap Express (Mukherjee Nagar),Coldstart_Risk_Score,0.9062989812979112,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delhi Chaat Bhandar (Mukherjee Nagar),Coldstart_Risk_Score,0.8939830589214228,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delhite Pí¢tisserie (Mukherjee Nagar),Coldstart_Risk_Score,0.9013876134426504,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Desi Dhaba (Mukherjee Nagar),Coldstart_Risk_Score,0.9229104158024226,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Desi Thaat Amritsari Naan (Mukherjee Nagar),Coldstart_Risk_Score,0.9325009726133786,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dhaba Express (Mukherjee Nagar),Coldstart_Risk_Score,0.9358810780413492,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Food Campus (Mukherjee Nagar),Coldstart_Risk_Score,0.9008209323704724,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Fresh Fast Food (Mukherjee Nagar),Coldstart_Risk_Score,0.9001392133527641,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Gungun Tiffin Services (Mukherjee Nagar),Coldstart_Risk_Score,0.9759917341727836,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Happy Italiano (Mukherjee Nagar),Coldstart_Risk_Score,0.928611341748194,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Haryana Bhojnalaya (Mukherjee Nagar),Coldstart_Risk_Score,0.9001392133527641,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Inam Muradabadi (Mukherjee Nagar),Coldstart_Risk_Score,0.9068138059524046,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Just In (Mukherjee Nagar),Coldstart_Risk_Score,0.9202501670782722,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Jyoti Dhaba (Mukherjee Nagar),Coldstart_Risk_Score,0.9006455664300389,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Lasha Chinese Food (Mukherjee Nagar),Coldstart_Risk_Score,0.8980367625178668,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Maa Vaishno Dinesh Dhaba (Mukherjee Nagar),Coldstart_Risk_Score,0.8977065157576994,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,NIK's Chicken Corner (Mukherjee Nagar),Coldstart_Risk_Score,0.8997967939128158,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Om Shanti Foods (Mukherjee Nagar),Coldstart_Risk_Score,0.93244437140708,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Pasta Pizza & Roll Hut (Mukherjee Nagar),Coldstart_Risk_Score,0.8927339764400908,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Punjabi Delight (Mukherjee Nagar),Coldstart_Risk_Score,0.9321236068235752,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Punjabi Parantha Station and Punjabi Thali (Mukherjee Nagar),Coldstart_Risk_Score,0.928636753383645,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Punjabi Paratha Station (Mukherjee Nagar),Coldstart_Risk_Score,0.8989754280313326,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Raja Rasoi (Mukherjee Nagar),Coldstart_Risk_Score,0.9004805920789175,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rollacious (Mukherjee Nagar),Coldstart_Risk_Score,0.977862928488558,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Spl. Flavour Sodas & Fruit shakes (Mukherjee Nagar),Coldstart_Risk_Score,0.920030050696287,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Student Corner (Mukherjee Nagar),Coldstart_Risk_Score,0.9343177038485748,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Taneja Corner (Mukherjee Nagar),Coldstart_Risk_Score,0.8998135899119475,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Taste Zone (Mukherjee Nagar),Coldstart_Risk_Score,0.9330816862060096,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,West Bangal Kolkata Hot Kathi Rolls (Mukherjee Nagar),Coldstart_Risk_Score,0.901255259169706,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bobby Di Punjabi Rasoi (Najafgarh),Coldstart_Risk_Score,0.9848195678348164,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aditya Da Vaishno Dhaba (Najafgarh),Coldstart_Risk_Score,0.9864712051183508,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Bikaner Sweets (Najafgarh),Coldstart_Risk_Score,0.9778751495178636,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Sweet Centre (Najafgarh),Coldstart_Risk_Score,0.9787279096645504,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Anjel China & Tibetian Food (Najafgarh),Coldstart_Risk_Score,0.9765635728181072,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Annpurna Rasoi (Najafgarh),Coldstart_Risk_Score,0.9740942839108256,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Apni Rasoi (Najafgarh),Coldstart_Risk_Score,0.9698826145004712,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bajrang Misthan Bhawan (Najafgarh),Coldstart_Risk_Score,0.9828783257774024,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bake Town (Najafgarh),Coldstart_Risk_Score,0.9783197629555812,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bikaner Sweets & Restaurant (Najafgarh),Coldstart_Risk_Score,0.9503705778545984,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Brown Town Bakers (Najafgarh),Coldstart_Risk_Score,0.9743118076429892,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Captain Food Factory (Najafgarh),Coldstart_Risk_Score,0.9680417633377484,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cheffron Bakery (Najafgarh),Coldstart_Risk_Score,0.9864894042972742,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chicken Darwar (Najafgarh),Coldstart_Risk_Score,0.980143579488481,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chili's Treat (Najafgarh),Coldstart_Risk_Score,0.9730650789230296,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chilli Tadka (Najafgarh),Coldstart_Risk_Score,0.9649612766194589,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chinese Food Point (Najafgarh),Coldstart_Risk_Score,0.983102250295218,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chinese Temptation (Najafgarh),Coldstart_Risk_Score,0.9717628748460349,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dana Pani (Najafgarh),Coldstart_Risk_Score,0.9785038566557092,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dev Sweets & Restaurant (Najafgarh),Coldstart_Risk_Score,0.9660420687839912,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dilli Darbar Chicken Point (Najafgarh),Coldstart_Risk_Score,0.9860541226952416,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Food Point and Sweets Corner (Najafgarh),Coldstart_Risk_Score,0.9472098744950984,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Green Chick Chop (Najafgarh),Coldstart_Risk_Score,0.943133094489234,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Grover Burfee & Cakes (Najafgarh),Coldstart_Risk_Score,0.9731905827579024,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hans's Planet-F (Najafgarh),Coldstart_Risk_Score,0.9615578308579,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hotel Delhi 43 (Najafgarh),Coldstart_Risk_Score,0.9690347104831588,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kanhaiya Fast Food (Najafgarh),Coldstart_Risk_Score,0.9759991210456482,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Karol Bagh Ke Chhole Bhature (Najafgarh),Coldstart_Risk_Score,0.9825272788583372,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,King's Food (Najafgarh),Coldstart_Risk_Score,0.9835940634988244,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Lamba Sweets Corner (Najafgarh),Coldstart_Risk_Score,0.9756786862272636,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Laxmi Food Corner (Najafgarh),Coldstart_Risk_Score,0.9761418426487656,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Lounge Bakery (Najafgarh),Coldstart_Risk_Score,0.9832375420261732,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mehtaab Sweet Corner & Restaurant (Najafgarh),Coldstart_Risk_Score,0.9690424220623952,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Melting Food Point (Najafgarh),Coldstart_Risk_Score,0.9853403805496312,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mithla Dhabha (Najafgarh),Coldstart_Risk_Score,0.9819221774914816,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mittal Caterer (Najafgarh),Coldstart_Risk_Score,0.9641292336150564,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mittal Restaurant & Fast Food (Najafgarh),Coldstart_Risk_Score,0.956964868305352,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,NBC Nirankari Bakers (Najafgarh),Coldstart_Risk_Score,0.9602949443002023,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Pind Balluchi (Najafgarh),Coldstart_Risk_Score,0.9125827203761492,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Prem Chinese Fast Food (Najafgarh),Coldstart_Risk_Score,0.9867431841332202,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Punjabi Rasoi (Najafgarh),Coldstart_Risk_Score,0.9768876779282022,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Punjabi Special (Najafgarh),Coldstart_Risk_Score,0.9812085327474016,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Radhe Shyam Dhaba (Najafgarh),Coldstart_Risk_Score,0.9839214571004302,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Raj Rasoi (Najafgarh),Coldstart_Risk_Score,0.9742227373881454,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Raju De Special Paneer Wale (Najafgarh),Coldstart_Risk_Score,0.981629444884886,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sangeeta Dhaba (Najafgarh),Coldstart_Risk_Score,0.9839214571004302,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sat Narayan Fast Food (Najafgarh),Coldstart_Risk_Score,0.9755814341672312,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shahi Chicken Point (Najafgarh),Coldstart_Risk_Score,0.9860541226952416,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sharma Sweets (Najafgarh),Coldstart_Risk_Score,0.9797170268813488,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shere Hind Chicken Corner (Najafgarh),Coldstart_Risk_Score,0.986932518776198,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shiv Shakti Dhaba (Najafgarh),Coldstart_Risk_Score,0.982585308431868,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shree Shyam Sweets (Najafgarh),Coldstart_Risk_Score,0.9850213455165024,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shri Shyam Ji Shudh Shakahari Bhojnalaya (Najafgarh),Coldstart_Risk_Score,0.9858471448845756,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sky Hawk (Najafgarh),Coldstart_Risk_Score,0.9338844646440344,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Snack Shack (Najafgarh),Coldstart_Risk_Score,0.966839905527376,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Soya Bite's (Najafgarh),Coldstart_Risk_Score,0.9729943400171072,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Soya Bite's (Najafgarh),Coldstart_Risk_Score,0.9764051632430448,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Taj Mahal Dhaba (Najafgarh),Coldstart_Risk_Score,0.9830479917861136,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Yadav Sweets (Najafgarh),Coldstart_Risk_Score,0.9823077372254816,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Yummy Chinese Food (Najafgarh),Coldstart_Risk_Score,0.9833719114705322,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sardar Ji (Naraina),Coldstart_Risk_Score,0.9552029077132506,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sweetheart Cupcakes (Naraina),Coldstart_Risk_Score,0.9659223428820392,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Avatar Da Dhaba (Naraina),Coldstart_Risk_Score,0.89180055626576,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Curry Man (Naraina),Coldstart_Risk_Score,0.964753289131492,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sardar A Pure Meat Shop (Naraina),Coldstart_Risk_Score,0.8974224996490134,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shashi's China Wok (Naraina),Coldstart_Risk_Score,0.9665837075864234,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Urban Palate (Naraina),Coldstart_Risk_Score,0.8904808426461742,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Wrapss (Naraina),Coldstart_Risk_Score,0.9298519377487948,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Annapurna Food Point (New Friends Colony),Coldstart_Risk_Score,0.9205204312384564,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bruncheez (New Friends Colony),Coldstart_Risk_Score,0.9237847726478596,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Buena Tierra (New Friends Colony),Coldstart_Risk_Score,0.8988425833452437,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aayush Food Plaza (Palam),Coldstart_Risk_Score,0.9500442285498224,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Ankit Fast Food Corner (Palam),Coldstart_Risk_Score,0.95989590714661,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mughal Zaika Chicken Point (Palam),Coldstart_Risk_Score,0.9275767651009889,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Nawab Restaurant (Palam),Coldstart_Risk_Score,0.9324739944693956,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,New Bikaner Sweets (Palam),Coldstart_Risk_Score,0.9527271522168472,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Radhika Sweets (Palam),Coldstart_Risk_Score,0.9409838272006692,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Satguru Di Hatti (Palam),Coldstart_Risk_Score,0.9622199818747872,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sher-E-Punjab (Palam),Coldstart_Risk_Score,0.9644710301339212,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shudh Vaishno Amritsari Naan (Palam),Coldstart_Risk_Score,0.9593654219895174,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sumit Sweets (Palam),Coldstart_Risk_Score,0.9418559350927708,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Bikaner Wala (Palam),Coldstart_Risk_Score,0.9416017751902794,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Sweet Centre (Palam),Coldstart_Risk_Score,0.9460607557777478,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Sweet India (Palam),Coldstart_Risk_Score,0.9476015785626816,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Sweets (Palam),Coldstart_Risk_Score,0.9419367338124732,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Anupama Snacks and Sweets Corner (Palam),Coldstart_Risk_Score,0.97061167118403,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Baba Ka Dhaba (Palam),Coldstart_Risk_Score,0.9651609268939784,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Balaji Eating Point (Palam),Coldstart_Risk_Score,0.9578394591603976,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bhagat Ji Sweets (Palam),Coldstart_Risk_Score,0.9616203226189663,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bikaner Sweet Corner (Palam),Coldstart_Risk_Score,0.951467705350223,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chavi Food Point (Palam),Coldstart_Risk_Score,0.9613179282769394,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dinesh Ka Mithila Dhaba (Palam),Coldstart_Risk_Score,0.968032645962634,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Flavours Of London (Palam),Coldstart_Risk_Score,0.9383522735098596,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Foji Bhai Hotel (Palam),Coldstart_Risk_Score,0.9632319333162276,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Green Chilli (Palam),Coldstart_Risk_Score,0.9461053748254956,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hook N Cook (Palam),Coldstart_Risk_Score,0.9387568668251288,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hyderabadi & Muradabadi Chicken Corner (Palam),Coldstart_Risk_Score,0.9611826407879732,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,It's Pizza Town (Palam),Coldstart_Risk_Score,0.9108796330317194,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,ITO Ke Mashoor Chole Bhature (Palam),Coldstart_Risk_Score,0.9690833074988916,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Janta Special Lassi Corner (Palam),Coldstart_Risk_Score,0.967686133402186,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kairi The Royal Taste (Palam),Coldstart_Risk_Score,0.9120021350307638,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kasba (Palam),Coldstart_Risk_Score,0.9588972268460156,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kayasthas Food Junction (Palam),Coldstart_Risk_Score,0.9396404933800516,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,KGN Chicken Corner (Palam),Coldstart_Risk_Score,0.9611826407879732,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Maggi Point (Palam),Coldstart_Risk_Score,0.9264227701531804,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Momozone (Palam),Coldstart_Risk_Score,0.9627582217508616,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Munna Bakery (Palam),Coldstart_Risk_Score,0.9615899037647628,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,N.S. Pizza Point (Palam),Coldstart_Risk_Score,0.9621911056169712,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Nand Bhai Chholey Bhature (Palam),Coldstart_Risk_Score,0.9581260012195172,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,New Lazeez Tandoor (Palam),Coldstart_Risk_Score,0.8919009733822009,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Pritam Tiffin Service (Palam),Coldstart_Risk_Score,0.9613176211229854,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rana Sweets and Restaurant (Palam),Coldstart_Risk_Score,0.9737249392496558,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rastogi Sweets & Caterers (Palam),Coldstart_Risk_Score,0.939530682384874,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Recipe Tadka (Palam),Coldstart_Risk_Score,0.9307569392067307,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sher e Punjab Rasoi (Palam),Coldstart_Risk_Score,0.9665896277832706,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shyam Rasoi (Palam),Coldstart_Risk_Score,0.9676347701782974,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Subhan Chicken Biryani (Palam),Coldstart_Risk_Score,0.964654197941748,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Surprise - Bakers & Bites (Palam),Coldstart_Risk_Score,0.9352754987202214,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Night Rider (Palam),Coldstart_Risk_Score,0.9101398562780204,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Vikram Ji Snacks (Palam),Coldstart_Risk_Score,0.9570606033708908,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Yadav Chaat Bhandar (Palam),Coldstart_Risk_Score,0.9586647473536378,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Yadav Ji Chholey Bhature (Palam),Coldstart_Risk_Score,0.9604761410312096,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Colours of Biryani (Preet Vihar),Coldstart_Risk_Score,0.9521951129033254,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Abdul Muradabadi Chicken (R K Puram),Coldstart_Risk_Score,0.9099589864802242,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Laxmi Corner (R K Puram),Coldstart_Risk_Score,0.8930344670281963,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Alam Biryani (R K Puram),Coldstart_Risk_Score,0.8964625446914295,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kaka Da Dhaba (R K Puram),Coldstart_Risk_Score,0.8987555926495475,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Ok Indian & Chinese Food Corner (R K Puram),Coldstart_Risk_Score,0.8986571961198375,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rapchick Biryani (R K Puram),Coldstart_Risk_Score,0.8972570630248551,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sindh Snacks (R K Puram),Coldstart_Risk_Score,0.9093337570748732,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Karnataka Food Centre (R K Puram),Coldstart_Risk_Score,0.9064063793268272,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bikaner Choice (Sainik Farms),Coldstart_Risk_Score,0.9041522212987104,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Puja Sandwich House (Sainik Farms),Coldstart_Risk_Score,0.9458297469841562,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,PVR Bhojanalay (Sainik Farms),Coldstart_Risk_Score,0.943131264135786,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Bake Studio (Sainik Farms),Coldstart_Risk_Score,0.9156663325228858,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Abdullah Biryani Centre (Sainik Farms),Coldstart_Risk_Score,0.9640275267006536,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Allishan Family Restaurant (Sainik Farms),Coldstart_Risk_Score,0.931816658395549,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,BonJuz (Sainik Farms),Coldstart_Risk_Score,0.9749481169569012,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Foodies (Sainik Farms),Coldstart_Risk_Score,0.8993721252621845,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,G+ (Sainik Farms),Coldstart_Risk_Score,0.9425081510946816,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Janta Canteen (Sainik Farms),Coldstart_Risk_Score,0.9383799193731576,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kalka's Food Centre (Sainik Farms),Coldstart_Risk_Score,0.8963432854571608,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Le Village Pastry Shop (Sainik Farms),Coldstart_Risk_Score,0.93510700929863,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mohit Bakery (Sainik Farms),Coldstart_Risk_Score,0.9010643727154952,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mouthmatics  (Sainik Farms),Coldstart_Risk_Score,0.982880306732232,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Pastry Place (Sainik Farms),Coldstart_Risk_Score,0.9142177442871976,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rasoi - The Indian Zaika (Sainik Farms),Coldstart_Risk_Score,0.9017946459612708,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shree Balaji Bhojnalaya (Sainik Farms),Coldstart_Risk_Score,0.9369448454389618,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Smoke Trailer Grill (Sainik Farms),Coldstart_Risk_Score,0.9347766786836864,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sonu Sweets (Sainik Farms),Coldstart_Risk_Score,0.9238099098134188,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Spice Treat (Sainik Farms),Coldstart_Risk_Score,0.9303071806055077,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Star Restaurant (Sainik Farms),Coldstart_Risk_Score,0.9298578053669488,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Twisted Bakery (Sainik Farms),Coldstart_Risk_Score,0.9790943558821764,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Tiffino Mania (Sainik Farms),Coldstart_Risk_Score,0.9619184671096496,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Yaadgaar (Sainik Farms),Coldstart_Risk_Score,0.9743074208524946,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Health-O-Lic (Tilak Nagar),Coldstart_Risk_Score,0.9312937358419656,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Himalya Chinese (Tilak Nagar),Coldstart_Risk_Score,0.8985157645338634,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mama Tao (Tilak Nagar),Coldstart_Risk_Score,0.8928064968802154,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Punjabi Dhaba (Tilak Nagar),Coldstart_Risk_Score,0.9617687720312678,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Snazzy Delights (Tilak Nagar),Coldstart_Risk_Score,0.966435480895374,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Today Pizza (Tilak Nagar),Coldstart_Risk_Score,0.8910376262038708,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chocochill (Uttam Nagar),Coldstart_Risk_Score,0.953488988256994,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,HotPlate (Vasant Vihar),Coldstart_Risk_Score,0.9284203225384172,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mohanty Bakery & Confectionery (Vasant Vihar),Coldstart_Risk_Score,0.9517030699829568,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Confectionary (Vasundhara Enclave),Coldstart_Risk_Score,0.9337746959583272,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Sweet Corner (Vasundhara Enclave),Coldstart_Risk_Score,0.9262235092924244,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Ananda's (Vasundhara Enclave),Coldstart_Risk_Score,0.9385453446966884,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Ayush Restaurant (Vasundhara Enclave),Coldstart_Risk_Score,0.9538310578808006,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Fatafat Fast Food (Vasundhara Enclave),Coldstart_Risk_Score,0.9171816301426045,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Giani (Vasundhara Enclave),Coldstart_Risk_Score,0.9089179583752548,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Green Tea Fanatics (Vasundhara Enclave),Coldstart_Risk_Score,0.9052059574760842,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Khansama (Vasundhara Enclave),Coldstart_Risk_Score,0.90611788607193,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Pauls Food (Vasundhara Enclave),Coldstart_Risk_Score,0.901787153940696,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Punjabi Vaishno Rasoi (Vasundhara Enclave),Coldstart_Risk_Score,0.9608172393720348,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Republic of Chicken (Vasundhara Enclave),Coldstart_Risk_Score,0.920446070624794,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Taj Sweets (Vasundhara Enclave),Coldstart_Risk_Score,0.9578203239104588,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Cake (Vasundhara Enclave),Coldstart_Risk_Score,0.9584489724077344,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Adi's Restaurant (Vasundhara Enclave),Coldstart_Risk_Score,0.9267870408803331,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Sweet & Bakers (Vasundhara Enclave),Coldstart_Risk_Score,0.966926399290913,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Aggarwal Sweets (Vasundhara Enclave),Coldstart_Risk_Score,0.9268223143185552,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Anjali Resaturant (Vasundhara Enclave),Coldstart_Risk_Score,0.9538310578808006,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Annapoorna Bhojanalya (Vasundhara Enclave),Coldstart_Risk_Score,0.9528004617444064,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Anupam Eating Point (Vasundhara Enclave),Coldstart_Risk_Score,0.9262691945679012,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bikaner Rasoi (Vasundhara Enclave),Coldstart_Risk_Score,0.9098724135912608,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Mom (Vasundhara Enclave),Coldstart_Risk_Score,0.9439942887087678,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Youth (Vasundhara Enclave),Coldstart_Risk_Score,0.9551545858038886,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cake Express (Vasundhara Enclave),Coldstart_Risk_Score,0.9323279675803792,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cake Knighter (Vasundhara Enclave),Coldstart_Risk_Score,0.9834951081172288,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Catchup Green (Vasundhara Enclave),Coldstart_Risk_Score,0.94637855942668,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,D Food (Vasundhara Enclave),Coldstart_Risk_Score,0.9642265119543508,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delicious Cake (Vasundhara Enclave),Coldstart_Risk_Score,0.98328578738656,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Famous Parantha and Poori Sabzi (Vasundhara Enclave),Coldstart_Risk_Score,0.9521716463047162,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,FM Biryani Point (Vasundhara Enclave),Coldstart_Risk_Score,0.9903270737657908,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Foodiez (Vasundhara Enclave),Coldstart_Risk_Score,0.9465772155761636,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Goli Vada Pav No. 1 (Vasundhara Enclave),Coldstart_Risk_Score,0.9763603800527016,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hyderabad's Delight (Vasundhara Enclave),Coldstart_Risk_Score,0.9811769873420156,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Khan Tandoori Nights (Vasundhara Enclave),Coldstart_Risk_Score,0.932297177050658,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Meatwale.com (Vasundhara Enclave),Coldstart_Risk_Score,0.947014044382321,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,New Aggarwal Sweets & Fast Food (Vasundhara Enclave),Coldstart_Risk_Score,0.9244421820050204,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Old Moradabadi Chicken Corner (Vasundhara Enclave),Coldstart_Risk_Score,0.9362752823658798,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Richa's Bakery (Vasundhara Enclave),Coldstart_Risk_Score,0.9487042242582364,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Rudra The Dhaba (Vasundhara Enclave),Coldstart_Risk_Score,0.9262691945679012,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Seven Star Pizza (Vasundhara Enclave),Coldstart_Risk_Score,0.950046279189697,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shahi Muradabadi Chicken Biryani (Vasundhara Enclave),Coldstart_Risk_Score,0.949547389380446,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shree Krishna Restaurant (Vasundhara Enclave),Coldstart_Risk_Score,0.9322075654364664,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Shree Sai Bhog (Vasundhara Enclave),Coldstart_Risk_Score,0.9138573925343472,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Soni Food Court (Vasundhara Enclave),Coldstart_Risk_Score,0.9260090090148786,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,South Street Cafe (Vasundhara Enclave),Coldstart_Risk_Score,0.9342000277837156,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Special Chicken Biryani (Vasundhara Enclave),Coldstart_Risk_Score,0.9006090133537293,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sweets n Treats (Vasundhara Enclave),Coldstart_Risk_Score,0.9293441796540888,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Twenty Four Seven (Vasundhara Enclave),Coldstart_Risk_Score,0.9064280890858004,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Two Friends Roll Corner (Vasundhara Enclave),Coldstart_Risk_Score,0.9751381372394676,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Waikiki (Vasundhara Enclave),Coldstart_Risk_Score,0.9749895652213348,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Zaika Chicken Corner (Vasundhara Enclave),Coldstart_Risk_Score,0.907700387025915,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Zombiez (Vasundhara Enclave),Coldstart_Risk_Score,0.9750070910379106,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Veg Food Express (Vivek Vihar),Coldstart_Risk_Score,0.9308805915787292,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Affamato (Sector 110),Coldstart_Risk_Score,0.8942361790768957,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Lassilo (Sector 110),Coldstart_Risk_Score,0.9149912055577132,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Uncle's Corner (Sector 110),Coldstart_Risk_Score,0.9090497732926156,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sushma Homemade Tiffin (Sector 12),Coldstart_Risk_Score,0.9558391246608672,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Bawarchi (Sector 132),Coldstart_Risk_Score,0.9484549200840364,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Grill King (Sector 132),Coldstart_Risk_Score,0.9741739637713388,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,RollsKing (Sector 132),Coldstart_Risk_Score,0.9148655586279344,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,SnacksWale.com (Sector 132),Coldstart_Risk_Score,0.9079112138774256,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Brajwasi (Sector 132),Coldstart_Risk_Score,0.968749284182394,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Coffee Day (Sector 132),Coldstart_Risk_Score,0.8998712365176191,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Coffee Day (Sector 132),Coldstart_Risk_Score,0.8975916865403044,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Lounge (Sector 132),Coldstart_Risk_Score,0.9580999865230088,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Treat (Sector 132),Coldstart_Risk_Score,0.9588956673197128,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Casa Bake (Sector 132),Coldstart_Risk_Score,0.96927178988081,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,China Town (Sector 132),Coldstart_Risk_Score,0.924500425242216,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delhi Foods (Sector 132),Coldstart_Risk_Score,0.937305227185052,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Deli Chic (Sector 132),Coldstart_Risk_Score,0.9741739637713388,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Delicacies (Sector 132),Coldstart_Risk_Score,0.8906948532281962,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Little China (Sector 132),Coldstart_Risk_Score,0.9437164140573688,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Lola's Cafe (Sector 132),Coldstart_Risk_Score,0.896402951943288,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Madras Coffee House (Sector 132),Coldstart_Risk_Score,0.912255575867354,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Moju Juice Bar (Sector 132),Coldstart_Risk_Score,0.9422611731372016,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Peniel Restaurant (Sector 132),Coldstart_Risk_Score,0.9357999503206444,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Sandoz (Sector 132),Coldstart_Risk_Score,0.9349221917706156,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Tandoori Mystery (Sector 132),Coldstart_Risk_Score,0.930290118130441,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Taste of Punjab (Sector 132),Coldstart_Risk_Score,0.9381167935675478,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Tea Nation (Sector 132),Coldstart_Risk_Score,0.9092037014356216,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Corporate Kitchen (Sector 132),Coldstart_Risk_Score,0.9732563092161184,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Royal Kitchen (Sector 132),Coldstart_Risk_Score,0.9079112138774256,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Baked! Cakes & Desserts (Sector 45),Coldstart_Risk_Score,0.9581753827708316,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Balaji Restaurant & Sweets (Sector 45),Coldstart_Risk_Score,0.9714896512920608,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chandu Chat Bhandar (Sector 45),Coldstart_Risk_Score,0.9662369761172276,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Floating Cakes (Sector 62),Coldstart_Risk_Score,0.9342092147918456,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mom's Canteen (Sector 62),Coldstart_Risk_Score,0.9452812796397848,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,The Chaiwalas (Sector 62),Coldstart_Risk_Score,0.9132239015137972,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Chinese Food Corner (Sector 62),Coldstart_Risk_Score,0.9117345135828197,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Dial a Cake (Sector 62),Coldstart_Risk_Score,0.9024252477991996,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,WOW Zaika (Sector 62),Coldstart_Risk_Score,0.9416065564389718,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Food Destination (Sector 72),Coldstart_Risk_Score,0.902612570349928,Is Rated,1,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Breadman Cake Shop (Sector 72),Coldstart_Risk_Score,0.9066744614786946,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Cafe Hot Pot (Sector 72),Coldstart_Risk_Score,0.9127712472911048,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Food Cabana (Sector 72),Coldstart_Risk_Score,0.9693171274880468,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Hydrabad Biryani Express (Sector 72),Coldstart_Risk_Score,0.9017674779317064,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Ice Stone Cafe (Sector 72),Coldstart_Risk_Score,0.9750651144576628,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Kake Da Dhaba (Sector 72),Coldstart_Risk_Score,0.9701672997000998,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Mr. Biryani Walia (Sector 72),Coldstart_Risk_Score,0.9773492792865028,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
+High-risk restaurant in opportunity locality,Yolkers (Sector 72),Coldstart_Risk_Score,0.9065334854217786,Is Rated,0,restaurant_master_insights.csv + locality_opportunity_flags.csv,1.0
