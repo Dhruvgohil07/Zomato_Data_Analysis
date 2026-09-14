@@ -16,7 +16,7 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 | Feature engineering | ✅ Complete | `Feature_Engineering.ipynb` (21 cells) |
 | Deep EDA (univariate/bivariate/multivariate) | ✅ Complete | `Deep_EDA.ipynb` (45 cells) |
 | Statistical validation (Phase 4) | ✅ Complete | `Statistical_Validation.ipynb` (42 cells) |
-| Derived metrics (Phase 3.5) | ⬜ Planned | — |
+| Derived metrics (Phase 3.5) | ✅ Complete | `Derived_Metrics.ipynb` (80 cells) |
 | Predictive modeling | ⬜ Planned | — |
 | Reporting & final dataset | ⬜ Planned | — |
 
@@ -28,6 +28,7 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 - **`Output/df_india_cleaned`** — the cleaned, India-only, feature-flagged base (8,643 rows) produced by `Data_cleaning.ipynb`
 - **`Output/df_featured.csv`** — `df_india_cleaned` plus cuisine/vote features, produced by `Feature_Engineering.ipynb` and consumed by `Deep_EDA.ipynb` and `Statistical_Validation.ipynb`
 - **`Output/phase4_test_results.csv`** — one row per Phase 4 test: statistic, raw and Holm-corrected p-values, effect size with 95% CI, verdict and caveat
+- **Phase 3.5 derived-metric outputs** (produced by `Derived_Metrics.ipynb`): `credibility_weighted_ratings.csv`, `value_for_money_residuals.csv`, `competition_density.csv`, `cuisine_pair_premium.csv`, `locality_cuisine_crosstab.csv`, `locality_pricerange_crosstab.csv`, `locality_opportunity_flags.csv`
 
 > ⚠️ The raw CSV is **latin-1 encoded**, not UTF-8 — always read it with `encoding="latin-1"`. The `Output/` CSVs are written by pandas and are **UTF-8**, so read those with the default encoding. Some accented names are already corrupted in the raw file (e.g. "Cafí©" for "Café"); this only affects how about 70 names display.
 
@@ -79,6 +80,15 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 - Output: `Output/phase4_test_results.csv` (verdict + caveat per test) and an effect-size chart
 - Executed end-to-end via `jupyter nbconvert --execute`, 0 errors
 
+### Derived metrics (`Derived_Metrics.ipynb` — 80 cells)
+
+- **Credibility-weighted rating:** Bayesian shrinkage `Cred_Rating = (v·R + m·C)/(v+m)` (m = median vote count = 49, C = global mean = 3.35); drops 4 low-vote 4.9s out of the raw top 15 and promotes 6 high-vote 4.8–4.9s; robust in direction across m = Q1–Q3 (8–11/15 overlap)
+- **Value-for-money residual:** regressed `Cred_Rating` on `Log_Cost`, fit separately within NCR and outside NCR; best value is `Naturals Ice Cream` (₹150, residual +1.61), worst is `Pind Balluchi` (₹1,000, -1.45); 3 of the 15 worst share one mall (The Great India Place, Sector 38)
+- **Competition density:** `sklearn.neighbors.BallTree` (haversine) counts competitors within 500m/1km/2km for all NCR restaurants with valid GPS (7,550 of 7,947, 95%); weak, **non-monotonic** density-rating link (ρ=0.18) that reverses at price ranges 3–4 (denser rates higher there; no isolated restaurants exist at range 4 at all)
+- **Cuisine co-occurrence:** full `Cuisines` list (not just `Primary Cuisine`) split into pairs; fusion-with-North-Indian pairs carry the largest rating premiums (+0.30 to +0.55, n≥30); Healthy Food/Salad/Fast Food/American combinations underperform on both rating and cost
+- **Locality opportunity gaps:** thin-supply/high-demand cells flagged per-locality (not globally) across Locality×Cuisine and Locality×Price-range cross-tabs, restricted to the 102 localities with ≥30 restaurants; 167 flagged cells, 98.8% in NCR; "Ice Cream" independently flagged in two different top localities (Chandni Chowk, Connaught Place)
+- Every code cell paired with a markdown `### Observation:` cell grounded in its actual output; executed end-to-end via `jupyter nbconvert --execute`, 0 errors
+
 ## Key findings so far
 
 1. **The data mixes 12 currencies without conversion** (INR, USD, IDR, GBP, …). Apparent cross-country "outliers" were a currency artifact — e.g. every cost above 10,000 is Indonesian Rupiah (800,000 IDR ≈ $50 USD). This drove the India-only decision.
@@ -96,6 +106,9 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 13. **`Average Cost for two` and `Price range` are redundant** (Pearson 0.83 / Spearman 0.91 on rated data) — only one should enter a linear model at a time.
 14. **Rating tiers:** 4.5–4.9 Excellent, 4.0–4.4 Very Good, 3.5–3.9 Good, 2.5–3.4 Average, 1.8–2.4 Poor.
 15. **Online delivery** is only available in India and UAE (in the full, multi-country dataset).
+16. **Competition density has a non-monotonic, price-dependent relationship with rating.** Isolated restaurants (0 competitors within 1km) rate highest overall, but that reverses at price ranges 3–4, where denser areas rate higher — and no isolated restaurants exist at price range 4 at all.
+17. **Cuisine fusion with North Indian carries a rating premium.** Pairing North Indian with Mediterranean, European, Asian, American, Mexican, Thai or Seafood adds +0.30 to +0.55 to `Cred_Rating` versus serving either cuisine alone (n≥30 per pair); Healthy Food/Salad/Fast Food/American combinations do the opposite.
+18. **Locality opportunity flags are almost entirely an NCR phenomenon** (165 of 167, 98.8%) — not because non-NCR has no gaps, but because non-NCR localities rarely reach the ≥30-restaurant threshold needed to flag reliably.
 
 ## Repository structure
 
@@ -106,10 +119,18 @@ End-to-end analysis of a global Zomato restaurant dataset: data cleaning, explor
 ├── Feature_Engineering.ipynb    # Cuisine/vote feature engineering (21 cells)
 ├── Deep_EDA.ipynb               # Univariate/bivariate/multivariate Deep EDA (45 cells)
 ├── Statistical_Validation.ipynb # Phase 4: hypothesis tests, effect sizes, Holm correction (42 cells)
+├── Derived_Metrics.ipynb        # Phase 3.5: 5 derived metrics for Phase 5/6 (80 cells)
 ├── Output/
 │   ├── df_india_cleaned         # Phase 2 output: cleaned India base (8,643 rows)
 │   ├── df_featured.csv          # Feature-engineered base used by Deep_EDA / Statistical_Validation
-│   └── phase4_test_results.csv  # Phase 4 test results: effect sizes, CIs, verdicts, caveats
+│   ├── phase4_test_results.csv  # Phase 4 test results: effect sizes, CIs, verdicts, caveats
+│   ├── credibility_weighted_ratings.csv   # Phase 3.5: Bayesian-shrunk Cred_Rating per restaurant
+│   ├── value_for_money_residuals.csv      # Phase 3.5: rating-vs-cost residual, ranked
+│   ├── competition_density.csv            # Phase 3.5: BallTree competitor counts (500m/1km/2km)
+│   ├── cuisine_pair_premium.csv           # Phase 3.5: rating/cost premium per cuisine pair (n≥30)
+│   ├── locality_cuisine_crosstab.csv      # Phase 3.5: Locality × Primary Cuisine supply/demand
+│   ├── locality_pricerange_crosstab.csv   # Phase 3.5: Locality × Price range supply/demand
+│   └── locality_opportunity_flags.csv     # Phase 3.5: flagged thin-supply/high-demand cells
 └── Zomatodataset/                # Raw data (CSV, XLSX, JSON)
     ├── zomato.csv                # Main dataset (9,551 rows × 21 cols)
     ├── Country-Code.xlsx         # Country code → name mapping
@@ -139,7 +160,8 @@ print(df.shape)
 "
 
 # 2. Run the notebooks in order:
-#    EDA.ipynb -> Data_cleaning.ipynb -> Feature_Engineering.ipynb -> Deep_EDA.ipynb -> Statistical_Validation.ipynb
+#    EDA.ipynb -> Data_cleaning.ipynb -> Feature_Engineering.ipynb -> Deep_EDA.ipynb
+#    -> Statistical_Validation.ipynb -> Derived_Metrics.ipynb
 #    (Data_cleaning.ipynb imports the merged dataframe from EDA.ipynb via importnb;
 #     the later notebooks read straight from the Output/ CSVs)
 ```
@@ -148,7 +170,6 @@ Requires Python 3 with pandas, numpy, matplotlib, seaborn, scipy, statsmodels, s
 
 ## Roadmap ahead (India-focused)
 
-1. **Phase 3.5 — Derived metrics:** credibility-weighted (Bayesian) rating, competition density from lat/long (`BallTree`), value-for-money residual, cuisine co-occurrence, locality opportunity gaps
-2. **Phase 5 — Predictive modeling:** predict `Aggregate rating` with two framings (descriptive vs actionable — the latter excludes `Votes` as leakage), using `Price range` (or cost) and `Is NCR` as controls per Phase 4; compare Linear/Ridge, Random Forest, XGBoost; plus a separate `Is Rated` cold-start classifier
-3. **Phase 6 — Insights & final report:** business takeaways, summary charts, save final datasets, limitations section
-4. **Optional:** Delhi-focused analysis with `file1–5.json` (~2,358 Delhi restaurants)
+1. **Phase 5 — Predictive modeling:** predict `Aggregate rating` (or `Cred_Rating`, Phase 3.5) with two framings (descriptive vs actionable — the latter excludes `Votes` as leakage), using `Price range` (or cost) and `Is NCR` as controls per Phase 4, plus `Competitors_1km` (leakage-safe) from Phase 3.5; compare Linear/Ridge, Random Forest, XGBoost; plus a separate `Is Rated` cold-start classifier
+2. **Phase 6 — Insights & final report:** business takeaways tied to the Phase 3.5 derived metrics, summary charts, save final datasets, limitations section
+3. **Optional:** Delhi-focused analysis with `file1–5.json` (~2,358 Delhi restaurants)
